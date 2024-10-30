@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Happyfret\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-30 10:39+0100\n"
+"PO-Revision-Date: 2018-12-17 10:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: Advise Communication <rmariage@advise.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: happyfret.php\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/HappyfretApi.class.php:22 classes/HappyfretApi.class.php:57
+msgid "Happyfretproducts retrieval error !"
+msgstr "Erreur lors de la récupération des produits Happyfret !"
+
+#: classes/HappyfretApi.class.php:92
+msgid "Happyfretproducts creation error !"
+msgstr "Erreur lors de la création des produits Happyfret !"
+
+#: classes/HappyfretApi.class.php:152 classes/HappyfretApi.class.php:185
+msgid "Unknown client type. Please check Happyfret API configuration."
+msgstr "Type de client inconnu, merci de vérifier la configuration de l'API Happyfret."
+
+#: classes/HappyfretShippingMethod.class.php:42
+#: classes/HappyfretShippingMethod.class.php:55
+#: classes/HappyfretShippingMethod.class.php:89
+msgid "Happyfret Shipping"
+msgstr "Livraison avec Happy Fret"
+
+#: classes/HappyfretShippingMethod.class.php:43
+msgid "Custom Shipping Method for Happyfret"
+msgstr "Mode de livraison personnalisé pour Happy Fret"
+
+#: classes/HappyfretShippingMethod.class.php:80
+msgid "Enable"
+msgstr "Activer"
+
+#: classes/HappyfretShippingMethod.class.php:82
+msgid "Enable this shipping"
+msgstr "Activer ce mode de livraison"
+
+#: classes/HappyfretShippingMethod.class.php:86
+msgid "Title"
+msgstr "Titre"
+
+#: classes/HappyfretShippingMethod.class.php:88
+msgid "Title to be display on site"
+msgstr "Titre à afficher sur le site"
+
+#: happyfret.php:89
+msgid "Your API Key"
+msgstr "Votre clé d'API"
+
+#: happyfret.php:93
+msgid "Your API Email"
+msgstr "Votre email pour l'API"
+
+#: happyfret.php:97
+msgid "API base URL"
+msgstr "URL de base de l'API"
+
+#: happyfret.php:101
+msgid "API account validation URL"
+msgstr "URL - validation du compte"
+
+#: happyfret.php:105
+msgid "API profile URL"
+msgstr "URL - profil marchand"
+
+#: happyfret.php:109
+msgid "API resolve parcels URL"
+msgstr "URL - calcul du conditionnement"
+
+#: happyfret.php:113
+msgid "API get shipping rate URL"
+msgstr "URL - calcul des frais de port"
+
+#: happyfret.php:117
+msgid "API products URL"
+msgstr "URL - synchronisation des produits"
+
+#: happyfret.php:121 happyfret.php:133
+msgid "API logistics transport offers URL"
+msgstr "URL - offres de transport (logistique intégrée)"
+
+#: happyfret.php:125
+msgid "API standalone transport offers URL"
+msgstr "URL - offres de transport (hors logistique)"
+
+#: happyfret.php:129
+msgid "API order confirmation"
+msgstr "URL - confirmation de commande (hors logistique)"
+
+#: happyfret.php:137
+msgid "API logistics order confirmation"
+msgstr "URL - confirmation de commande (logistique intégrée)"
+
+#: happyfret.php:143 happyfret.php:464 happyfret.php:562 happyfret.php:670
+#: happyfret.php:719
+msgid "Name"
+msgstr "Nom"
+
+#: happyfret.php:147
+msgid "Address 1"
+msgstr "Adresse 1"
+
+#: happyfret.php:151
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: happyfret.php:155
+msgid "Address 3"
+msgstr "Adresse 3"
+
+#: happyfret.php:159
+msgid "Country"
+msgstr "Pays"
+
+#: happyfret.php:163
+msgid "Zip code"
+msgstr "Code postal"
+
+#: happyfret.php:167
+msgid "City"
+msgstr "Ville"
+
+#: happyfret.php:171
+msgid "State"
+msgstr "Etat / département"
+
+#: happyfret.php:175
+msgid "Contact"
+msgstr "Contact"
+
+#: happyfret.php:179
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: happyfret.php:183
+msgid "Mobile"
+msgstr "Numéro de mobile"
+
+#: happyfret.php:187
+msgid "Email"
+msgstr "Email"
+
+#: happyfret.php:295
+msgid "Parcels"
+msgstr "Conditionnements"
+
+#: happyfret.php:296
+msgid "Parcel Categories"
+msgstr "Catégories de conditionnement"
+
+#: happyfret.php:297
+msgid "Packing Orders"
+msgstr "Demandes de conditionnement"
+
+#: happyfret.php:298
+msgid "Shipping Labels"
+msgstr "Etiquettes de transport"
+
+#: happyfret.php:299
+msgid "Products synchronization"
+msgstr "Synchronisation des produits"
+
+#: happyfret.php:327
+msgid "Plugin settings"
+msgstr "Paramètres du plugin"
+
+#: happyfret.php:348 happyfret.php:1275 happyfret.php:1312
+msgid "Save settings"
+msgstr "Enregistrer"
+
+#: happyfret.php:365
+msgid "New parcel type"
+msgstr "Nouveau conditionnement"
+
+#: happyfret.php:369 happyfret.php:415
+msgid "Edit parcel type"
+msgstr "Modifier le conditionnement"
+
+#: happyfret.php:411
+msgid "New parcel type stock"
+msgstr "Nouvelle entrée de stock"
+
+#: happyfret.php:450
+msgid "Parcel types list"
+msgstr "Conditionnements"
+
+#: happyfret.php:455 happyfret.php:535
+msgid "Add a new parcel type"
+msgstr "Ajouter un conditionnement"
+
+#: happyfret.php:461 happyfret.php:669 happyfret.php:754
+msgid "Id"
+msgstr "Id"
+
+#: happyfret.php:462 happyfret.php:566
+msgid "Category"
+msgstr "Catégorie"
+
+#: happyfret.php:463 happyfret.php:558
+msgid "Reference"
+msgstr "Référence"
+
+#: happyfret.php:465 happyfret.php:578
+msgid "Width"
+msgstr "Largeur (cm)"
+
+#: happyfret.php:466 happyfret.php:582
+msgid "Height"
+msgstr "Hauteur (cm)"
+
+#: happyfret.php:467 happyfret.php:586
+msgid "Depth"
+msgstr "Profondeur (cm)"
+
+#: happyfret.php:468 happyfret.php:590
+msgid "Volume"
+msgstr "Volume (mm3)"
+
+#: happyfret.php:469 happyfret.php:594
+msgid "Max. weight"
+msgstr "Poids max (kg)"
+
+#: happyfret.php:470 happyfret.php:598
+msgid "Price"
+msgstr "Prix (€)"
+
+#: happyfret.php:471 happyfret.php:602
+msgid "Visible"
+msgstr "Visible"
+
+#: happyfret.php:472 happyfret.php:1329
+msgid "Stock"
+msgstr "Stock"
+
+#: happyfret.php:473 happyfret.php:671 happyfret.php:758
+msgid "Action"
+msgstr "Action"
+
+#: happyfret.php:509 happyfret.php:748 happyfret.php:788
+msgid "Add a new stock entry"
+msgstr "Ajouter une entrée de stock"
+
+#: happyfret.php:514
+msgid "Show stock"
+msgstr "Afficher le stock"
+
+#: happyfret.php:519 happyfret.php:682 happyfret.php:772
+msgid "Edit"
+msgstr "Modifier"
+
+#: happyfret.php:522
+msgid "Do you really want to delete this parcel type ?"
+msgstr "Voulez-vous vraiment effacer ce type d'emballage ?"
+
+#: happyfret.php:525 happyfret.php:687 happyfret.php:777
+msgid "Delete"
+msgstr "Effacer"
+
+#: happyfret.php:607 happyfret.php:724 happyfret.php:828
+msgid "Save"
+msgstr "Enregistrer"
+
+#: happyfret.php:608 happyfret.php:725 happyfret.php:829
+msgid "Cancel"
+msgstr "Annuler"
+
+#: happyfret.php:659 happyfret.php:712
+msgid "Parcel categories list"
+msgstr "Liste des catégories de conditionnement"
+
+#: happyfret.php:664 happyfret.php:697
+msgid "Add a new category"
+msgstr "Ajouter une catégorie"
+
+#: happyfret.php:684
+msgid "Do you really want to delete this category?"
+msgstr "Voulez-vous vraiment effacer cette catégorie ?"
+
+#: happyfret.php:742
+msgid "Parcel type stock list for parcel type : "
+msgstr "Stocks pour le type d'emballage : "
+
+#: happyfret.php:749 happyfret.php:789
+msgid "Return to parcel type list"
+msgstr "Retour à la liste des types d'emballage"
+
+#: happyfret.php:755 happyfret.php:819
+msgid "Date"
+msgstr "Date"
+
+#: happyfret.php:756
+msgid "Order"
+msgstr "Commande"
+
+#: happyfret.php:757 happyfret.php:823
+msgid "Quantity"
+msgstr "Quantité"
+
+#: happyfret.php:774
+msgid "Do you really want to delete this stock entry?"
+msgstr "Voulez-vous vraiment effacer cette entrée de stock ?"
+
+#: happyfret.php:807
+msgid "Parcel type"
+msgstr "Type d'emballage"
+
+#: happyfret.php:844 happyfret.php:885
+msgid "Packing orders"
+msgstr "Demandes de conditionnement"
+
+#: happyfret.php:849
+msgid "Packing Order Id"
+msgstr "Id de l'ordre d'emballage"
+
+#: happyfret.php:850
+msgid "User Id"
+msgstr "Id de l'utilisateur"
+
+#: happyfret.php:851 happyfret.php:890
+msgid "Order Id"
+msgstr "Id de la commande"
+
+#: happyfret.php:852
+msgid "Parcel Type"
+msgstr "Type d'emballage"
+
+#: happyfret.php:853
+msgid "Products"
+msgstr "Produits"
+
+#: happyfret.php:891
+msgid "Tracking number"
+msgstr "Numéro de suivi"
+
+#: happyfret.php:892
+msgid "Packages tracking numbers"
+msgstr "Numéros de suivi individuels"
+
+#: happyfret.php:893
+msgid "PDF"
+msgstr "PDF"
+
+#: happyfret.php:894
+msgid "Expedition Id"
+msgstr "Id d'expédition"
+
+#: happyfret.php:1002
+msgid "Happy Fret"
+msgstr "Happy Fret"
+
+#: happyfret.php:1113
+msgid "Happyfret API key successfully checked !"
+msgstr "La clé API Happyfret a bien été vérifiée !"
+
+#: happyfret.php:1116
+msgid "Happyfret API key error !"
+msgstr "Erreur de clé d'API Happyfret !"
+
+#: happyfret.php:1119
+msgid "Happyfret API configuration error !"
+msgstr "Erreur de configuration de l'API Happyfret !"
+
+#: happyfret.php:1253
+msgid "Products not linked to Happyfret"
+msgstr "Produits de la boutique non liés à Happyfret"
+
+#: happyfret.php:1285
+msgid "Happyfret products not linked to the shop"
+msgstr "Produits Happyfret non liés à la boutique"
+
+#: happyfret.php:1301 happyfret.php:1373
+msgid "Do nothing"
+msgstr "Ne rien faire"
+
+#: happyfret.php:1302
+msgid "Create new product in shop"
+msgstr "Créer un nouveau produit sur la boutique"
+
+#: happyfret.php:1321
+msgid "Products linked to Happyfret"
+msgstr "Produits de la boutique liés à Happyfret"
+
+#: happyfret.php:1327
+msgid "Product Id"
+msgstr "Id du produit"
+
+#: happyfret.php:1328
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: happyfret.php:1330
+msgid "Happyfret ref"
+msgstr "Référence Happyfret"
+
+#: happyfret.php:1331
+msgid "Happyfret name"
+msgstr "Nom Happyfret"
+
+#: happyfret.php:1332
+msgid "Happyfret stock"
+msgstr "Stock Happyfret"
+
+#: happyfret.php:1352
+msgid "Update from Happyfret"
+msgstr "Mettre à jour depuis Happyfret"
+
+#: happyfret.php:1375
+msgid "Create new product in Happyfret"
+msgstr "Créer un nouveau produit dans Happyfret"
+
+#: happyfret.php:329
+msgid "API Settings"
+msgstr "Paramètres d'API"
+
+#: happyfret.php:337
+msgid "Sender Settings"
+msgstr "Paramètres expéditeur"
+
+#: happyfret.php:628
+msgid "New parcel category"
+msgstr "Nouvelle catégorie de conditionnement"
+
+#: happyfret.php:632
+msgid "Edit parcel category"
+msgstr "Modifier la catégorie de conditionnement"
+
+#: happyfret.php:864
+msgid "Deleted parcel type"
+msgstr "Type d'emballage supprimé"
+
+#: happyfret.php:616
+msgid "Parcel weight"
+msgstr "Poid de l'emballage (kg)"
+
+#: HappyfretShippingMethod.class.php:135
+msgid "Products you have selected come from different warehouses. They can't be shipped together"
+msgstr "Des produits que vous avez sélectionnés proviennent d'entrepôts différents, ils ne peuvent pas être livrés ensemble"
+
+#: happyfret.class.php:921
+msgid "Billing Address"
+msgstr "Adresse de facturation"
+
+#: happyfret.class.php:922
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#: happyfret.class.php:924
+msgid "Products to pack"
+msgstr "Produits à conditionner"
+
+#: happyfret.class.php:935
+msgid "Order #"
+msgstr "Commande n°"
